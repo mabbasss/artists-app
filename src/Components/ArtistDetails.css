@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.div1{
+    height: 30rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.artistName{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 3.5rem;
+    font-weight: 500;
+
+}
+.artistGenre{
+font-family: 'Bebas Neue', cursive;
+font-size: 2rem;
+}
+
+.artistText{
+    margin-top: 19rem;
+    line-height: normal;
+}
+.div2{
+    width: 150px;
+}
+.detailsImg{
+    width: 150px; 
+    z-index: 1;
+}
+#popover-basic{
+    transition: all 0.9s;
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+.mainPage{
+    background-image: url(../../public/images/raw/Girls-Listen-Music_0.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.filter{
+    background-color: black;
+    height: 100vh;
+    opacity: 0.6;
+    transition: all 0.9s;
+}
+
+.entryBtn{
+    font-family: 'Monoton', cursive;
+    font-size: 5rem;
+    color: white;
+    transition: all 0.9s;
+}
+
+.entryBtn:hover{
+    color: yellow;
+    transform: scale(1.6);
+}
