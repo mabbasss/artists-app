@@ -104,25 +104,25 @@ let ArtistDetails = () => {
                                         </div>
                                         <div className="row g-2">
                                             <div className="col mb-2">
-                                                <OverlayTrigger placement="left" delay={{ show: 250, hide: 400 }} overlay={popover1}>
+                                                <OverlayTrigger placement="top" delay={{ show: 250, hide: 400 }} overlay={popover1}>
                                                     <img src={`/images/albums/${artist.albums[0].cover}.jpg`} alt="2" className="w-100 rounded-3" />
                                                 </OverlayTrigger>
                                             </div>
                                             <div className="col mb-2">
-                                                <OverlayTrigger placement="right" delay={{ show: 250, hide: 400 }} overlay={popover2}>
+                                                <OverlayTrigger placement="top" delay={{ show: 250, hide: 400 }} overlay={popover2}>
                                                     <img src={`/images/albums/${artist.albums[1].cover}.jpg`} alt="2" className="w-100 rounded-3" />
                                                 </OverlayTrigger>
                                             </div>
                                         </div>
                                         <div className="row g-2">
                                             <div className="col">
-                                                <OverlayTrigger placement="left" delay={{ show: 250, hide: 400 }} overlay={popover3}>
+                                                <OverlayTrigger placement="bottom" delay={{ show: 250, hide: 400 }} overlay={popover3}>
 
                                                     <img src={`/images/albums/${artist.albums[2].cover}.jpg`} alt="3" className="w-100 rounded-3" />
                                                 </OverlayTrigger>
                                             </div>
                                             <div className="col">
-                                                <OverlayTrigger placement="right" delay={{ show: 250, hide: 400 }} overlay={popover4}>
+                                                <OverlayTrigger placement="bottom" delay={{ show: 250, hide: 400 }} overlay={popover4}>
                                                     <img src={`/images/albums/${artist.albums[3].cover}.jpg`} alt="4" className="w-100 rounded-3" />
                                                 </OverlayTrigger>
                                             </div>
