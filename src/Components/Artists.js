@@ -45,7 +45,7 @@ export default class Artists extends Component{
 
     componentDidMount(){
         setTimeout(() => {
-            fetch('http://artists-app-api.herokuapp.com/artists/')
+            fetch('https://artists-app-api.herokuapp.com/artists/',{ mode: 'cors'})
         .then((res)=>{
             return res.json()
         })

@@ -18,7 +18,7 @@ let ArtistDetails = () => {
 
     useEffect(() => {
         setTimeout(() => {
-            fetch(`http://artists-app-api.herokuapp.com/artists/${id}`)
+            fetch(`https://artists-app-api.herokuapp.com/artists/${id}`,{mode: 'cors'})
             .then((response) => {
                 if(!response.ok){
                     setError(response.status);
